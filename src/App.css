@@ -235,15 +235,13 @@ label {
 }
 
 @media screen and (max-width: 750px) {
-  .app {
-    /* height: auto; */
-  }
   .main-card {
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .error {
     bottom: -2rem;
+    font-size: 0.75rem;
   }
   .mr-2 {
     margin-right: 1rem;
@@ -255,12 +253,17 @@ label {
     border-bottom: 2px solid var(--lightgray);
   }
 
+  .form-control {
+    padding: 1rem;
+  }
+
   .form-control::placeholder {
     font-size: 2rem;
   }
 
   .label-div {
-    font-size: 4rem;
+    font-size: 3rem;
+    line-height: 4rem;
   }
 
   .end {
